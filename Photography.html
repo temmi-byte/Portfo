@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Photography Gallery</title>
+  <link rel="stylesheet" href="photo.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  
+   <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-logo">Temmie Visuals</div>
+    <div class="menu-toggle" onclick="openMenu()">☰</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="Photography.html">Photography</a>
+      <a href="videography.html">Videography</a>
+      <a href="web.html">Website Projects</a>
+    </div>
+  </nav>
+
+  <!-- Mobile Sidebar -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="close-icon" onclick="closeMenu()">✕</div>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="Photography.html" onclick="closeMenu()">Photography</a>
+    <a href="videography.html" onclick="closeMenu()">Videography</a>
+    <a href="web.html" onclick="closeMenu()">Website Projects</a>
+  </div>
+
+  <section class="photo-gallery">
+    <div class="gallery-item"><img src="image23.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image24.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image25.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image26.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image27.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image28.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image29.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image30.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image31.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image32.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image33.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image34.jpg" alt="Photo 4"></div>
+    <div class="gallery-item"><img src="image35.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image36.jpg" alt="Photo 4"></div>
+
+
+     <div class="gallery-item"><img src="image1.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image2.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image3.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image4.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image5.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image6.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image7.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image8.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image9.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image10.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image11.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image12.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image13.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image14.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image15.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image16.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image17.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image18.jpg" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image19.png" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image20.png" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image21.png" alt="Photo 4"></div>
+     <div class="gallery-item"><img src="image22.png" alt="Photo 4"></div>
+  </section>
+
+  <!-- Popup Viewer -->
+  <div id="popup-viewer" class="hidden">
+    <span id="close-btn">&times;</span>
+    <button id="prev-btn">&#10094;</button>
+    <img id="popup-img" src="" alt="">
+    <button id="next-btn">&#10095;</button>
+    <div class="zoom-controls">
+      <button id="zoom-in">+</button>
+      <button id="zoom-out">-</button>
+    </div>
+  </div>
+
+  <script src="photo.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Temmi's Portfolio</title>
+  <link rel="stylesheet" href="video.css">
+</head>
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-logo">Temmie Visuals</div>
+    <div class="menu-toggle" onclick="openMenu()">☰</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="Photography.html">Photography</a>
+      <a href="videography.html">Videography</a>
+      <a href="web.html">Website Projects</a>
+    </div>
+  </nav>
+
+  <!-- Mobile Sidebar -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="close-icon" onclick="closeMenu()">✕</div>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="Photography.html" onclick="closeMenu()">Photography</a>
+    <a href="videography.html" onclick="closeMenu()">Videography</a>
+    <a href="web.html" onclick="closeMenu()">Website Projects</a>
+  </div>
+
+  <!-- Video Projects Section -->
+  <section class="video-projects" id="videography">
+    <h2>🎥 Video Projects</h2>
+
+    <div class="video-grid">
+      <div class="video-card">
+        <img src="play-maker.png" alt="Snooker Lounge Thumbnail">
+        <div class="video-content">
+          <h3>Snooker Lounge Vlog</h3>
+          <p>Cinematic vlog for a snooker lounge. Shot and edited for maximum engagement and social media use.</p>
+          <a href="https://drive.google.com/file/d/1oPgRBy9IVqTosFfydMymiuiiDxzoqDgL/view?usp=sharing" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+             <div class="video-card">
+        <img src="signout.png" alt="Sign-out Thumbnail">
+        <div class="video-content">
+          <h3>Sign-Out Event Highlights</h3>
+          <p>A vibrant and energetic highlight reel capturing the excitement, unity, and emotions of the final moments shared by graduates. Shot and edited to reflect the spirit of celebration.</p>
+          <a href="https://drive.google.com/file/d/1KQJhFz4jhfGLe563FvJrETfmu2NkQbnq/view?usp=sharing" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <img src="micray.png" alt="Snooker Lounge Thumbnail">
+        <div class="video-content">
+          <h3>Vintage Vibes</h3>
+          <p>A creatively styled video showcasing a vintage aesthetic for a male model. Features bold transitions, retro tones, and cinematic angles to evoke a timeless vibe.</p>
+          <a href="https://drive.google.com/file/d/17BQKlK_Ip_E2Xrz2GSme1FK9DEnrHaer/view?usp=drive_link" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <img src="flourish.png" alt="Snooker Lounge Thumbnail">
+        <div class="video-content">
+          <h3> Styled Visual – Model Portrait Edit</h3>
+          <p>Originally a creative model shoot, this video stood out with its polished direction and camera work — so much that people mistook it for a fashion brand ad. A clean, expressive edit showcasing style, motion, and elegance.</p>
+          <a href="https://drive.google.com/file/d/1HQxXuIaKpUBWBvqBXyTLT-p6cvK1KhtG/view?usp=sharing" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <img src="fashion.png" alt="Snooker Lounge Thumbnail">
+        <div class="video-content">
+          <h3> Product Showcase</h3>
+          <p>A stylish product-focused video designed to highlight the texture, fit, and vibe of a fashion brand’s clothing piece. Minimalist and modern with a high-fashion feel.</p>
+          <a href="https://drive.google.com/file/d/1Wfk-ISCnwbudkGFrPrLj408Qkx9AapWw/view?usp=sharing" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <img src="fat.png" alt="Snooker Lounge Thumbnail">
+        <div class="video-content">
+          <h3>Personal Sign-Out Style Edit (Female)</h3>
+          <p>A personalized fashion-forward edit celebrating a graduate's sign-out in style. Combines elegance, joy, and transitions to tell a simple yet striking visual story.</p>
+          <a href="https://drive.google.com/file/d/1udGzHC6TCEC0QSnB2fKpW6DSdzd5CmjL/view?usp=sharing" class="btn" target="_blank">Watch Video</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="video.js"></script>
+</body>
+</html>
