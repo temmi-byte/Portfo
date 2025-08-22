@@ -120,3 +120,17 @@ body.dark-mode {
 .dark-mode .bio {
     color: #cec9c9;
 }
+
+.dark-mode #hire-me {
+    background-color: #0c0909;
+    color: #cec9c9;
+}
+
+.dark-mode #hire-me p {
+    color: #cec9c9;
+}
+
+.dark-mode .hire-me {
+    background-color: #161212;
+    color: #cec9c9;
+}
