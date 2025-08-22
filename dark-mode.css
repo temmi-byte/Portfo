@@ -1,0 +1,122 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .sidebar {
+    background-color: rgb(12, 12, 12);
+    color: #ffffff;
+}
+
+.dark-mode .sidebar ul li a {
+    color: #e0e0e0;
+}
+
+.dark-mode .hero {
+    background-color: #0d0e0c;
+    color: #e0e0e0;
+}
+
+.dark-mode #bio {
+   background-color: #252222;
+   color: #e0e0e0;
+}
+
+.dark-mode .portfolio {
+   background-color: #0c0909;
+}
+
+.dark-mode #contact {
+    background-color: #0c0909;
+}
+
+.dark-mode #services {
+    background-color: #181616;
+}
+
+.dark-mode .service-item {
+    background-color: #1a1818;
+    color: #e0e0e0;
+}
+
+.dark-mode footer {
+    background-color: #0d0e0c;
+    color: #e0e0e0;
+}
+
+
+.dark-mode .sidebar ul li {
+    color: #e0e0e0;
+}
+
+.dark-mode .close {
+    color: #e0e0e0;
+}
+
+.dark-mode .main-projects {
+ background-color: rgb(17, 15, 15);
+}
+
+.dark-mode .about-blog {
+    background-color: #0f0f0e;
+}
+
+.dark-mode .about-blog p {
+    color: aliceblue;
+}
+
+.dark-mode #skills {
+    background-color: #0c0909;
+}
+
+.dark-mode .skill h3 {
+    color: #e0e0e0;
+}
+
+.dark-mode #stats {
+    background-color: #0f0f0e;
+}
+
+.dark-mode .stat-box {
+    background-color: #181616;
+}
+
+.dark-mode .stat-box p {
+    color: aliceblue;
+}
+
+.dark-mode #testimonials {
+    background-color: #181616;
+}
+
+.dark-mode .testimonial-card {
+    background-color: #252222;
+}
+
+.dark-mode .testimonial-card p {
+    color: aliceblue;
+}
+
+.dark-mode .progress-bar {
+    background: #1b1b1a;
+}
+
+.dark-mode #about {
+    background-color: #0c0909;
+}
+
+.dark-mode .details-grid div {
+    color: rgb(166, 167, 170);
+}
+
+.dark-mode .about-content h2 {
+    color: aliceblue;
+}
+
+.dark-mode .intro {
+      color: rgb(200, 201, 202);
+}
+
+.dark-mode .bio {
+    color: #cec9c9;
+}

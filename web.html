@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>My website Projects</title>
+  <link rel="stylesheet" href="web.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-logo">Temmie Visuals</div>
+    <div class="menu-toggle" onclick="openMenu()">☰</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="Photography.html">Photography</a>
+      <a href="videography.html">Videography</a>
+      <a href="web.html">Website Projects</a>
+    </div>
+  </nav>
+
+  <!-- Mobile Sidebar -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="close-icon" onclick="closeMenu()">✕</div>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="Photography.html" onclick="closeMenu()">Photography</a>
+    <a href="videography.html" onclick="closeMenu()">Videography</a>
+    <a href="web.html" onclick="closeMenu()">Website Projects</a>
+  </div>
+
+
+  <section id="projects">
+  <div class="project-grid">
+
+     <!-- Project 1 -->
+    <div class="project-card">
+      <div class="slider">
+        <img src="skin.png" alt="Project 1" class="slider-img active" onclick="openModal(this)">
+        <img src="skin-mob.png" alt="Project 1 Alt" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>Skin Sho</h3>
+      <p>A modern, clean, and responsive website for a skincare brand. Designed with elegance and trust in mind to reflect self-care, product quality, and beauty-focused branding.</p>
+      <a href="https://skinsho.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+
+     <!-- Project 2 -->
+    <div class="project-card">
+      <div class="slider">
+        <img src="elite.png" alt="Project 1" class="slider-img active" onclick="openModal(this)">
+        <img src="elite-mob.png" alt="Project 1 Alt" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>Elite Interiors</h3>
+      <p>A sleek and visually engaging website for an interior design brand. Built to showcase luxury, creativity, and a premium feel, with sections for services, projects, and contact.</p>
+      <a href="https://eliteinteriors.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+
+     <!-- Project 3 -->
+    <div class="project-card">
+      <div class="slider">
+        <img src="dreamsleep.png" alt="Project 1" class="slider-img active" onclick="openModal(this)">
+        <img src="dream-mob.png" alt="Project 1 Alt" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>DreamSleep</h3>
+      <p>A clean and modern website for a luxury mattress brand. Designed to highlight comfort, quality sleep, and product features with a user-friendly layout and responsive design.</p>
+      <a href="https://dreamsleep.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <div class="slider">
+        <img src="wealth.png" alt="Project 1" class="slider-img active" onclick="openModal(this)">
+        <img src="wealth-mob.png" alt="Project 1 Alt" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>PloutoKos</h3>
+      <p>A simple, clean website created to change minds about wealth.</p>
+      <a href="https://ploutokos.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card" data-aos="zoom-in">
+      <div class="slider">
+        <img src="luxury.png" class="slider-img active" onclick="openModal(this)">
+        <img src="luxury-mob.png" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>Luxury Hotel</h3>
+      <p>A modern hotel website built to showcase rooms, build trust and encourage bookings. Fully mobile responsive. Tools: HTML, CSS, & JavaScript.</p>
+      <a href="https://luxuryhotel001.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+
+     <!-- Project 6 -->
+    <div class="project-card" data-aos="flip-right">
+      <div class="slider">
+        <img src="lani-app.png" class="slider-img active" onclick="openModal(this)">
+        <img src="lani-mob.png" class="slider-img" onclick="openModal(this)">
+        <button class="slide-btn prev" onclick="slide(this, -1)">&#10094;</button>
+        <button class="slide-btn next" onclick="slide(this, 1)">&#10095;</button>
+      </div>
+      <h3>Lani Apparel</h3>
+      <p>A sleek fashion brand website designed to highlight collections and attract customers online. Tools: HTML, CSS & JavaScript</p>
+      <a href="https://lani-apparel.netlify.app/" target="_blank" class="visit-btn">Visit Website</a>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for full image popup -->
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+
+<script src="web.js"></script>
+
+<script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
